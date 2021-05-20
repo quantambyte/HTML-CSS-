@@ -1,0 +1,479 @@
+/* global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  line-height: 2rem;
+  font-weight: 550;
+
+  letter-spacing: 0.1rem;
+}
+
+button {
+  width: max-content;
+  margin-top: 5rem;
+
+  padding: 1rem 2.5rem;
+
+  background: white;
+  color: black;
+  cursor: pointer;
+
+  font-size: 1.4rem;
+}
+
+button:hover {
+  color: white;
+  background: black;
+  transition: all 0.4s ease-in-out;
+}
+
+/* header section */
+.nav-head {
+  background: rgb(44, 44, 44);
+  color: white;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  width: 90%;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin: auto;
+
+  align-items: center;
+}
+
+nav a img {
+  width: 5rem;
+
+  flex: 1 1 40rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 3rem;
+
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+nav ul li a {
+  padding: 1rem;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: rgb(44, 44, 44);
+}
+
+/* hero section */
+.hero {
+  min-height: 90vh;
+}
+
+.hero-content {
+  min-height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1 1 50rem;
+  padding: 15%;
+  padding-right: 10%;
+
+  font-family: fantasy;
+}
+
+.hero-text h1 {
+  line-height: 7rem;
+  font-size: 5.5rem;
+
+  color: #f1c50e;
+  text-transform: uppercase;
+}
+
+#renovating {
+  color: #b3b3b3;
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+.hero-text p {
+  margin-top: 2rem;
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+}
+
+.hero-img {
+  padding-top: 10%;
+  padding-left: 5%;
+  flex: 1 1 50rem;
+}
+
+.hero-img img {
+  width: 80%;
+  height: 70%;
+}
+
+/* services section */
+#services {
+  min-height: 100vh;
+}
+
+.services-head {
+  min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  background: #f1c50e;
+  padding: 0 5%;
+  padding-bottom: 3%;
+}
+
+.service {
+  flex: 1 1 30rem;
+  background-color: white;
+  padding: 2% 5%;
+
+  margin: 2% 1%;
+  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.service img {
+  background: #f1c50e;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.service h2 {
+  color: #f1c50e;
+  margin: 5% 0;
+  font-size: 1.8rem;
+}
+
+.service p {
+  margin-top: 10%;
+
+  font-size: 1.3rem;
+  color: rgb(104, 103, 103);
+}
+
+.popular-services {
+  flex-wrap: wrap;
+  min-height: 90vh;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    ),
+    url("./Assets/images/services-image.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  padding: 2% 5%;
+}
+
+.text-area {
+  width: 85%;
+  min-height: 10vh;
+  padding: 5%;
+}
+
+.text-area h2,
+#about-us h2 {
+  font-size: 5rem;
+}
+
+.text-area p {
+  margin-top: 2%;
+  font-size: 1.8rem;
+  color: rgb(51, 51, 51);
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1 1 30rem;
+  padding: 3%;
+  margin: 2%;
+  background: white;
+}
+
+.service-card img {
+  width: 100%;
+}
+
+.service-card h3 {
+  color: #f1c50e;
+  margin: 2% 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.service-card p {
+  font-size: 1.3rem;
+  color: rgb(104, 103, 103);
+  line-height: 2rem;
+}
+
+/* About Us Section */
+#about-us {
+  min-height: 100vh;
+}
+
+#about-us header {
+  background: #e5e5e5;
+  padding: 10% 5%;
+
+  text-align: center;
+  min-height: 20vh;
+}
+
+#about-us header p {
+  margin: 5% 0;
+
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+#about-us header button,
+#home-repair button {
+  padding: 2% 5%;
+  font-size: 1.5em;
+
+  background: #f1c50e;
+  border: none;
+  color: black;
+}
+
+#about-us header button:hover,
+#home-repair button:hover {
+  background: #d3aa04;
+}
+
+.about-us-flex {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 5%;
+}
+
+.col1 {
+  background: rgb(190, 190, 190);
+  padding: 10% 3%;
+  flex: 1 1 30rem;
+}
+
+.col1-yellow {
+  background: #f1c50e;
+  padding: 1%;
+}
+
+.col1-yellow img {
+  width: 100%;
+}
+
+.col2 {
+  flex: 1 1 30rem;
+  padding: 5%;
+}
+
+.col2 p {
+  margin: 5% 0;
+  font-size: 1.6rem;
+}
+
+/* contact us section */
+#contact-us {
+  background: #1a1a1a;
+  padding: 10%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  margin: 5% 0;
+  flex: 1 1 20rem;
+  background: #f1c50e;
+  padding: 5%;
+}
+
+.contact-info h3 {
+  margin: 5% 0;
+  font-size: 2.3rem;
+}
+
+.contact-info h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contact-form {
+  flex: 1 1 35rem;
+  background: white;
+  padding: 5%;
+}
+
+.contact-form input {
+  background: white;
+  color: black;
+  width: 100%;
+  border: none;
+
+  border-bottom: 2px solid black;
+  margin: 5% 0;
+  height: 3rem;
+}
+
+.contact-form button {
+  margin-top: 2%;
+}
+
+#big-message {
+  height: 10rem;
+}
+
+/* home repair section */
+#home-repair {
+  min-height: 100vh;
+  background: #1a1a1a;
+  padding: 10%;
+
+  text-align: center;
+  color: white;
+}
+
+#home-repair h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 3% 0;
+}
+
+#home-repair h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+
+  color: #999999;
+
+  margin-bottom: 5%;
+}
+
+.home-repair-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-repair-card {
+  text-align: left;
+  margin: 4%;
+  padding: 5%;
+  flex: 1 1 20rem;
+}
+
+.home-repair-card p {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 550;
+  font-style: italic;
+}
+
+.home-repair-card h4 {
+  margin: 5% 0;
+  font-size: 3rem;
+  color: #f1c50e;
+}
+
+/* Media Query */
+@media screen and (max-width: 750px) {
+  /* navbar  */
+
+  .nav-head {
+    position: relative;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav {
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul li {
+    padding: 2rem;
+  }
+
+  nav a img {
+    flex-basis: 50rem;
+  }
+
+  nav ul {
+    flex-basis: 80rem;
+  }
+
+  .hero-text h1 {
+    font-size: 4.5rem;
+  }
+
+  #renovating {
+    font-size: 3.5rem;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-img {
+    padding: 5%;
+  }
+}
