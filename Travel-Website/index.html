@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content = "Travelly is a travel agency which takes you to the most fun side of your planned area.">
+    <meta name = "robots" content = "index,follow">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet"> 
+
+    <title>Travelly | Travelling is Fun</title>
+    <link rel="icon" href="./Assets/icons/airplane.svg">
+
+</head>
+<body>
+    
+    <!-- header -->
+    <header class="main-head">
+        <nav>
+            <h1 id="logo">Travelly</h1>
+
+            <ul>
+                <li><a href="#locations">Locations</a></li>
+
+                <li><a href="#benefits">Benefits</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section class="hero">
+            <h2>Travel Beyond Limits.</h2>
+
+            <h3>
+                Start your travel at an affordable price with Travelly <br> Contact us
+            </h3>
+
+            <button>Book Now</button>
+        </section>
+
+        <!-- locations section -->
+        <section id="locations">
+            <header class="locations-head">
+
+                <h2>The Perfect Travelling Experience.</h2>
+                <h3>We cover everything from picking the perfect hotel, <br> flight and travelling destination</h3>
+
+                <img src="./Assets/img/cloud.png" class= 'moving-cloud-1 cloud' alt="">
+
+                <img src="./Assets/img/cloud.png" class= 'moving-cloud-2 cloud' alt="">
+
+
+            </header>
+        </section>
+
+        <!-- benefits section -->
+        <section id="benefits">
+            <header class="benefits-head">
+                <h2>The Perfect Travel</h2>
+
+                <h3>We cover everything from picking the perfect hotel, <br> flight and travelling destination</h3>
+            </header>
+
+            <div class="cards">
+
+                <!-- 1st card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./Assets/icons/route-solid.svg" alt="">
+                    </div>
+                    
+                    <h4>Travel</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta facilis nam eveniet praesentium suscipit! Quam explicabo, expedita necessitatibus odio sequi eligendi tenetur quisquam veniam officiis nesciunt dolorem aspernatur at provident.</p>
+                </div>
+
+                <!-- 2nd card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./Assets/icons/bed-solid.svg" alt="">
+                    </div>
+
+                    <h4>Hotel</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti mollitia veritatis aliquam suscipit, nostrum dolore eos rerum quam officia voluptatum, ipsum doloribus, sit quisquam id enim maxime numquam cupiditate! Incidunt.</p>
+                </div>
+
+                <!-- 3rd card -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./Assets/icons/plane-departure-solid.svg" alt="">
+                    </div>
+                    
+                    <h4>Fly</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illum harum rem nemo, ducimus libero eligendi dolores tenetur quam hic doloribus cum saepe iusto impedit recusandae sunt earum autem labore.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--  contact section -->
+        <section id="contact">
+            <div class="form-wrapper">
+
+                <header class="form-head">
+                    <h2>Contact Us</h2>
+                </header>
+
+                <form action="https://formspree.io/f/xjvjgqeo"
+                method="POST">
+                    <div class="name-form">
+                        <label for="name">Name</label>
+                        <input type="text" name = "name" required id = "name">
+                    </div>
+
+                    <div class="email-form">
+                        <label for="email">Email</label>
+                        <input type="email" name="_replyto" required id = "email">
+                    </div>
+
+                    <button value = "Send" type = "submit">Submit</button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <h5>Travelly &copy;</h5>
+
+            <ul>
+                <li><a href="" title="social-media-Instagram"><img src="./Assets/icons/instagram.svg" alt="social-media-instagram"></a></li>
+
+                <li><a href="" title="social-media-Twitter"><img src="./Assets/icons/twitter.svg" alt="social-media-twitter"></a></li>
+
+                <li><a href="https://github.com/uzair-asif" title="social-media-Github" target="_blank"><img src="./Assets/icons/github.svg" alt="social-media-github"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
