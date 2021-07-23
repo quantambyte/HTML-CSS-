@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: white;
+}
+
+.navbar-brand img {
+  width: 50%;
+}
+
+#bar-button {
+  color: white;
+  background-color: #018dca;
+}
+
+#list {
+}
+
+#list a,
+#list button {
+  color: #018dca;
+}
+
+#list a:hover {
+  color: #8abb2a;
+  border-bottom: 1px solid #8abb2a;
+}
+
+#home {
+  color: #8abb2a;
+  border-bottom: 1px solid #8abb2a;
+}
+
+.about-us .container .row .col h1 {
+  color: #018dca;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.color-green {
+  color: #8abb2a;
+}
+
+.about-us .container .row .col p {
+  margin-top: 5%;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.about-us .container .row .col button {
+  background-color: #018dca;
+  border: none;
+  padding: 3%;
+  color: white;
+
+  font-weight: 600;
+}
+
+.about-us .container .row .col button:hover,
+.services .container .row button:hover {
+  background-color: black;
+  transition: all 0.2s ease;
+}
+
+section {
+  margin-top: 5%;
+}
+section .container .row {
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  padding: 4%;
+}
+.services .container .row > h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #018dca;
+
+  font-weight: 550;
+}
+
+section .container .row .col {
+  margin-top: 4%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  padding: 2%;
+}
+
+.services .container .row .col img {
+  align-items: center;
+  justify-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.services .container .row .col h1 {
+  font-size: 1.5rem;
+  font-weight: 550;
+  margin-top: 15%;
+
+  color: #018dca;
+}
+
+.services .container .row .col p {
+  font-size: 1rem;
+  text-align: start;
+}
+
+.services .container .row button {
+  width: max-content;
+  background-color: #018dca;
+  border: none;
+  padding: 2%;
+
+  color: white;
+
+  font-weight: 600;
+}
+
+.case-studies .container .row h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #018dca;
+
+  font-weight: 550;
+}
+
+.case-studies .container .row h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #018dca;
+
+  font-weight: 500;
+}
+.case-studies .container .row .col {
+  padding: 2%;
+}
+
+.case-studies .container .row .col .row .col {
+  border: 0.1px solid rgb(148, 147, 147, 0.3);
+}
+.case-studies .container .row .col p {
+  text-align: left;
+}
+
+.case-studies .container .row .col .row .col a {
+  color: black;
+  text-decoration: none;
+}
+
+.case-studies .container .row .col .row .col:hover {
+  border-color: black;
+}
+
+.banner .container-fluid .row {
+  /* border: 1px solid black; */
+  background-image: linear-gradient(to right, #8abb2a, #018dca);
+
+  padding: 5%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.banner .container-fluid .row .col h1 {
+  /* border: 1px solid white; */
+
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.banner .container-fluid .row .col h2 {
+  /* border: 1px solid white; */
+  margin-top: 3%;
+  color: black;
+  font-weight: 550;
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer .row .container {
+  height: 80rem;
+  background-color: gray;
+}
