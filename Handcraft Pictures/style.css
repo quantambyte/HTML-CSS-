@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar{
+    background-color: transparent;
+    padding: 2rem 1rem;
+    z-index: 10;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    background-color: rgb(226, 224, 224);
+}
+
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.hero{
+    position: relative;
+}
+
+#hero-h1{
+    font-size: 105%;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 0;
+}
+
+#hero-h2{
+    margin: 0;
+    padding: 0;
+}
+#hero-he-handcraft{
+    font-size: 2em;
+    letter-spacing: 0.05em;
+}
+
+#hero-p{
+    font-weight: lighter;
+    font-size: 0.90em;
+    letter-spacing: 0.02em;
+}
+
+#hero-btn{
+    font-size: large;
+    padding: 0.5em 1.5em;
+    background-color: transparent;
+    border-width: 0.01px;
+    border-color: white;
+}
+
+#hero-btn:hover{
+    border: none;
+    background-color: white;
+    color: black;
+    transition: all 0.1s ease;
+}
+
+.about{
+    height: auto;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+
+.main-text > h1:nth-child(n){
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    font-weight: 580;
+    text-align: justify;
+
+}
+
+#about-h1-p{
+    margin: 0;
+    margin-top: 2.1em;
+    letter-spacing: 0.05em;
+    color: rgba(40,26,23,.8);
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.main-text > p:nth-child(4){
+    font-size: 1em;
+    word-spacing: 0.05em;
+    line-height: 1.6em;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: left;
+}
+
+.dairy{
+    padding: 2em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.dairy > h2{
+    letter-spacing: 0.05em;
+    color: black;
+    font-weight: 400;
+    font-size: 1.8em;
+    
+}
+
+.dairy > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    color: rgba(40,26,23,.8);
+    font-size: 1em;
+}
