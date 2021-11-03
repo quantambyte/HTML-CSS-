@@ -13,11 +13,11 @@
   }
 }
 
-.travelly,
-.elena-joy,
-.handcraft,
-.renovators,
-.conrad-labs,
-.wedding-photography {
+.project {
   flex: 1 1 50rem;
+  margin-left: 5px;
+
+  img {
+    width: 100%;
+  }
 }

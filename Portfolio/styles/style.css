@@ -302,15 +302,15 @@ nav ul {
   margin: 5rem;
 }
 
-.travelly,
-.elena-joy,
-.handcraft,
-.renovators,
-.conrad-labs,
-.wedding-photography {
+.project {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50rem;
           flex: 1 1 50rem;
+  margin-left: 5px;
+}
+
+.project img {
+  width: 100%;
 }
 
 .form-section {
